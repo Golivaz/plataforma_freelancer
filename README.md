@@ -1,4 +1,4 @@
-##Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - PHP: Linguagem de programação usada;
 - Laravel: Framework PHP utilizado para a estrutura e organização do projeto;
