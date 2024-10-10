@@ -1,0 +1,1 @@
+components.project-card-simple<?php /**PATH C:\xampp\htdocs\plataforma_freelancer\storage\framework\views/32eba003cd62e24a4549ee5cfd652388.blade.php ENDPATH**/ ?>
