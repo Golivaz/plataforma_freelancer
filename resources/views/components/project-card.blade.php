@@ -44,7 +44,7 @@
         <div class="flex gap-[8px] items-center pb-2">
             @foreach($project->tech_stack as $tech)
 
-                {{ $tech}}
+                <x-ui.tech :icon="$tech" :text="$tech" />
 
             @endforeach
         </div>
