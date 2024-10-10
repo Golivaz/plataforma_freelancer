@@ -583,7 +583,13 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
 
     public static $classMap = array (
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\ProjectsController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProjectsController.php',
         'App\\Http\\Controllers\\WelcomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/WelcomeController.php',
+        'App\\Livewire\\Projects\\Index' => __DIR__ . '/../..' . '/app/Livewire/Projects/Index.php',
+        'App\\Livewire\\Projects\\Proposals' => __DIR__ . '/../..' . '/app/Livewire/Projects/Proposals.php',
+        'App\\Livewire\\Projects\\Show' => __DIR__ . '/../..' . '/app/Livewire/Projects/Show.php',
+        'App\\Models\\Project' => __DIR__ . '/../..' . '/app/Models/Project.php',
+        'App\\Models\\Proposal' => __DIR__ . '/../..' . '/app/Models/Proposal.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -703,6 +709,8 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
         'Cron\\HoursField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
         'Cron\\MinutesField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+        'Database\\Factories\\ProjectFactory' => __DIR__ . '/../..' . '/database/factories/ProjectFactory.php',
+        'Database\\Factories\\ProposalFactory' => __DIR__ . '/../..' . '/database/factories/ProposalFactory.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
         'DateError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateError.php',
