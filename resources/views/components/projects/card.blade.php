@@ -17,6 +17,7 @@
             <div class="text-[#8C8C9A] text-[14px] leading-6">
                 Publicado {{ $project->created_at->diffForHumans() }}
             </div>
+            
         </div>
         <div>
             <button class="bg-[#5354FD] text-white font-bold tracking-wide uppercase px-8 py-3 rounded-[4px]
